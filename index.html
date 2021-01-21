@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>First Bootstrap Project</h1>
+        </div>
+        <div class="row justify-content-center-end">
+            <div class="col-4">Stop right there!</div>
+            <div class="col-4">You've Violated the law!</div>
+            <div class="col-4">It's been too long since I've seen a good brawl.</div>
+        </div>
+        <div class="row">
+            <form class="col-12 p-3 border border-secondary">
+                <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="catCheckbox">
+                    <label class="form-check-label" for="catCheckbox">Cats</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dogCheckbox">
+                    <label class="form-check-label" for="dogCheckbox">Dogs</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pizzaType" id="cheesePizza" value="option1">
+                    <label class="form-check-label" for="cheesePizza">
+                      Cheese Pizza
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="pizzaType" id="hawaiianPizza" value="option2" disabled>
+                        <label class="form-check-label" for="hawaiianPizza">
+                          Hawaiian Pizza
+                        </label>
+                </div>
+                <div class="form-check">
+                        <input class="form-check-input" type="radio" name="pizzaType" id="supremePizza" value="option3">
+                        <label class="form-check-label" for="supremePizza">
+                          Supreme Pizza
+                        </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit for Inspection</button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Kent</h3>
+                    <p class="card-text">Kent is a programmer who holds incorrect feelings about pizza.</p>
+                </div>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-title">Antoine</h3>
+                <p class="card-text">Antoine is a huge Alabama football fan</p>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-title">Collin</h3>
+                <p class="card-text">Collin is good at beatsaber and Smash Ultimate</p>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-title">Katie</h3>
+                <p class="card-text">Katie likes One Piece a lot</p>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-title">Brendon</h3>
+                <p class="card-text">Brendon likes working on rotory engiengs</p>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-title">Fergus</h3>
+                <p class="card-text">Fergus works a stressful job and needs a break</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
